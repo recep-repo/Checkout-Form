@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#main{
+    width: 900px;
+    height: 85vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+}
+.user{
+    width: 400px;
+}
+
+.info{
+    margin-top: 10px;
+}
+
+.input{
+    width: 100%;
+    height: 5vh;
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#phone{
+    margin-bottom: 30px;
+}
+
+.double-info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#country{
+    width: 200%;
+    height: 5vh;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    
+}
+
+#postcode{
+    width: 100%;
+}
+
+.bag{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    background-color: rgb(241, 241, 241);
+    /* border:1px solid; */
+    border-radius: 10px;
+    padding: 15px;
+    
+    
+}
+.good{
+    
+    /* border: 1px solid; */
+    margin: 5px;
+    padding-left: 10px;
+    
+}
+.good1{
+    background-image: url(IMG/photo1.png);
+    background-size: cover;
+    border-radius: 10px;
+    border: none;
+}
+.good3{
+    background-image: url(IMG/photo2.png);
+    background-size: cover;
+    border-radius: 10px;
+    border: none;
+}
+p{
+    font-size:23px;
+    color: orange;
+    margin-top: 10px;
+}
+span{
+    font-size: 18px;
+    text-decoration: line-through;
+    color: black;
+}
+
+.box{
+    border: 1px solid grey;
+    padding: 7px;
+    text-align: center;
+    /* margin-top: 30px; */
+    width: 125px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 5px;
+}
+.good2{
+    position: relative;
+}
+.good4{
+    position: relative;
+}
+
+.good5{
+    grid-column: 1/3;
+
+}
+
+.totalprice{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price{
+    color: black;
+}
+.total{
+    margin-top: 20px;
+}
+
+#container{
+    position: relative;
+}
+
+.footer{
+    position: absolute;
+    top: 600px;
+    right: 410px;
+}
+
+#submit{
+    background-color: orange;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+    
+}
